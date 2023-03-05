@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    width: 960px;
+    padding: 6px 10px;
+    margin: auto;
+}
+.header .logo{
+    display: inline-block;
+    padding: 6px 0;
+}
+.header nav{
+    text-align: center;
+    width: 100%;
+    font-size: 0;
+}
+.header nav a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 52px;
+    padding: 0 10px;
+}
+.text button{
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 15px 32px;
+    color: #fff;
+    background-color: blue;
+}
+.text button:hover{
+    background-color:#008;
+}
+.item-group{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+.about{
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(224, 225, 238);
+}
+p{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+h2{
+    color: rgb(14, 14, 99);
+}
+.text-list{
+    display: flex;
+}
+
+.product ul{
+    margin: 10px;
+    padding-left: 30px;
+    list-style: disc;
+    list-style-type: disc;
+}
+.product ul li::before{
+    color: blue;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    border-radius: 50%;
+}
+.service{
+    background-color: rgb(171, 213, 228);
+    text-align: center;
+}
+.service-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.service-wrap .item {
+    width: 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.recommend{
+    text-align: center;
+    padding: 20px 0;
+}
+.brand img{
+    padding: 0 20px 0;
+}
+.bottom-about{
+    padding: 30px 0;
+    text-align: center;
+    background-color:rgb(171, 213, 228) ;
+}
+.bottom-about p{
+    font-size: 42px;
+    color:rgb(14, 14, 99);
+}
+.bottom-about button{
+    width: 30%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 15px 32px;
+    color: #fff;
+    background-color: blue;
+}
+.bottom-about button:hover{
+    background-color:#008;
+}
+.footer{
+    padding: 30px 20px;
+    background-color: black;
+}
+.aboutus{
+    border-bottom: #fff solid 1px;
+    margin: 0 10px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.protect {
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: orange;
+}
+.protect a{
+    color: black;
+}
+.info{
+    margin:10px 0 0 0  ;
+    border-top: #fff solid 1px;
+}
+.info p{
+    color: #fff;
+}
+.path{
+    display: flex;
+}
+.path li{
+    position: relative;
+    padding: 6px 8px;
+}
+.path li a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+.path li+li::before{
+    content: '|';
+    color: #aaa;
+    position: absolute;
+    left: 0;
+}
