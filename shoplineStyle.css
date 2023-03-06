@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 .header{
     display: flex;
     width: 960px;
@@ -59,12 +58,10 @@ h2{
 .text-list{
     display: flex;
 }
-
 .product ul{
     margin: 10px;
     padding-left: 30px;
     list-style: disc;
-    list-style-type: disc;
 }
 .product ul li::before{
     color: blue;
