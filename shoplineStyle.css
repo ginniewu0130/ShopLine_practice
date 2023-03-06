@@ -4,9 +4,11 @@
 }
 .header{
     display: flex;
-    width: 960px;
     padding: 6px 10px;
     margin: auto;
+    position: sticky;
+    top:0;
+    background-color: #fff;
 }
 .header .logo{
     display: inline-block;
