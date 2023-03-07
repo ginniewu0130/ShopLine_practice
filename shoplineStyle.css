@@ -156,6 +156,7 @@ h2{
 .path li{
     position: relative;
     padding: 6px 8px;
+    list-style: none;
 }
 .path li a{
     color: #aaa;
